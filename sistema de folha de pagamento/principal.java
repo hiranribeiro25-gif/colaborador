@@ -46,7 +46,7 @@ public class principal {
                 System.out.print("informe quantidade peças produzidas: ");
                 registro.quantidade_peca = valor.nextInt();
                 System.out.print("informe valor da peça: ");
-                registro.valor_peca = valor.nextFloat();
+                registro.valor_peca = valor.nextDouble();
                 System.out.print("Colaborador cadastrado com sucesso!");
                 break;
 
